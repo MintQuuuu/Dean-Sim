@@ -1,0 +1,27 @@
+#tabpane
+{
+    -fx-background-color: transparent;
+    -fx-text-fill: #00FF41
+}
+.tab .tab-label{
+    -fx-background-color: transparent;
+    -fx-aligment: center;
+    -fx-text-fill: #008f11
+}
+
+.tab
+{
+    -fx-background-color: transparent;
+}
+
+.tab-pane *.tab-header-background
+{
+    -fx-background-color: transparent;
+
+}
+.tab:selected
+{
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #008f11
+
+}
